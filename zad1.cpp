@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
-#include "../Libs/argument.h"
+#include "Libs/argument.h"
 
 uint8_t  IsArgumentsCorrect(int argc, char **argv);
 uint32_t CountSum(uint32_t limit);
