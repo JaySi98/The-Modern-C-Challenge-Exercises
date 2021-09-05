@@ -48,7 +48,7 @@ uint8_t IsArgumentNumber(char* argument)
  * @arg int min - minimum required
  * @return uint8_t - 1 if true, 0 if false,
  */
-uint8_t  IsMinArgumentsProvided(int provided, int min)
+uint8_t IsMinArgumentsProvided(int provided, int min)
 {
     return provided >= min ? 1 : 0;
 }

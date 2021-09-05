@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdint.h> 
 
+
 uint32_t ArgumentToLong(char* argument, int base);
 uint8_t  IsArgumentNumber(char* argument);
 uint8_t  IsMinArgumentsProvided(int provided, int min);
