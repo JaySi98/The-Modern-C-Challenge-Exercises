@@ -1,4 +1,4 @@
-all : argument.o primes.o ex1 ex2 ex3 ex4 ex5 ex10 ex11 clean
+all : argument.o primes.o ex1 ex2 ex3 ex4 ex5 ex10 ex11 ex13 clean
 
 argument.o : Libs/argument.h
 	g++ -c Libs/argument.cpp 
@@ -26,6 +26,9 @@ ex10 : section1/ex10.cpp
 
 ex11 : section1/ex11.cpp
 	g++ -o Execs/ex11 section1/ex11.cpp argument.o
+
+ex13 : section1/ex13.cpp
+	g++ -o Execs/ex13 section1/ex13.cpp argument.o
 
 clean :
 	rm primes.o argument.o
